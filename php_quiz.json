@@ -1,0 +1,22 @@
+[
+		  {
+		    "question": "PHP code is executed on the __________.",
+		    "answer": "server"
+		  },
+		  {
+		    "question": "To display text in PHP, we use the __________ statement.",
+		    "answer": "echo"
+		  },
+		  {
+		    "question": "To collect form data sent via POST, we use __________.",
+		    "answer": "$_POST"
+		  },
+		  {
+		    "question": "To check if a variable is set in PHP, we use the __________ function.",
+		    "answer": "isset"
+		  },
+		  {
+		    "question": "In PHP, variables start with the __________ symbol.",
+		    "answer": "$"
+		  }
+		]

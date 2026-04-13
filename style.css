@@ -15,8 +15,8 @@ nav a:hover { text-decoration: underline; }
 
 /* Word Bank */
 .word-bank-section {
-    background: #fff3cd;
-    border: 2px solid #ffc107;
+    background: #cde4ff;
+    border: 2px solid #07a4ff;
     border-radius: 6px;
     padding: 15px 20px;
     margin-bottom: 25px;

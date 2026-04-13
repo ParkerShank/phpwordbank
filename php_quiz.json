@@ -1,22 +1,61 @@
 [
-		  {
-		    "question": "PHP code is executed on the __________.",
-		    "answer": "server"
-		  },
-		  {
-		    "question": "To display text in PHP, we use the __________ statement.",
-		    "answer": "echo"
-		  },
-		  {
-		    "question": "To collect form data sent via POST, we use __________.",
-		    "answer": "$_POST"
-		  },
-		  {
-		    "question": "To check if a variable is set in PHP, we use the __________ function.",
-		    "answer": "isset"
-		  },
-		  {
-		    "question": "In PHP, variables start with the __________ symbol.",
-		    "answer": "$"
-		  }
-		]
+  {
+    "question": "PHP code is executed on the __________.",
+    "answer": "server"
+  },
+  {
+    "question": "To display text in PHP, we use the __________ statement.",
+    "answer": "echo"
+  },
+  {
+    "question": "To collect form data sent via POST, we use __________.",
+    "answer": "$_POST"
+  },
+  {
+    "question": "To check if a variable is set in PHP, we use the __________ function.",
+    "answer": "isset"
+  },
+  {
+    "question": "In PHP, variables start with the __________ symbol.",
+    "answer": "$"
+  },
+  {
+    "question": "The __________ function is used to sanitize output and prevent XSS attacks.",
+    "answer": "htmlspecialchars"
+  },
+  {
+    "question": "To read a file's contents into a string in PHP, you use __________.",
+    "answer": "file_get_contents"
+  },
+  {
+    "question": "To decode a JSON string into a PHP array, you use __________.",
+    "answer": "json_decode"
+  },
+  {
+    "question": "The __________ superglobal stores information about the current request such as the request method.",
+    "answer": "$_SERVER"
+  },
+  {
+    "question": "To convert a string to all lowercase in PHP, you use the __________ function.",
+    "answer": "strtolower"
+  },
+  {
+
+	"question": "To start a session in PHP, you use the __________ function.",
+	"answer": "session_start"
+  },
+  {
+	"question": "To connect to a MySQL database in PHP, you can use the __________ function.",
+	"answer": "mysqli_connect"
+  },
+  {
+	"question": "To check if a form was submitted using the POST method, you can check if __________ is set.",
+	"answer": "$_POST"
+  },
+  {
+	"question": "To include the contents of another PHP file, you can use the __________ statement.",
+	"answer": "include"
+  }
+
+
+]

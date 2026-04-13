@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f5f5f5;
+    color: #333;
+}
+
+h1 { margin-bottom: 10px; }
+
+nav { margin-bottom: 20px; }
+nav a { margin-right: 15px; text-decoration: none; color: #0066cc; }
+nav a:hover { text-decoration: underline; }
+
+/* Word Bank */
+.word-bank-section {
+    background: #fff3cd;
+    border: 2px solid #ffc107;
+    border-radius: 6px;
+    padding: 15px 20px;
+    margin-bottom: 25px;
+}
+.word-bank-section h2 { margin: 0 0 10px; }
+.word-bank-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+.word-chip {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+/* Questions */
+.question-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 12px;
+}
+.question-item.has-error { border-color: #dc3545; }
+
+.answer-input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+.answer-input:focus { outline: none; border-color: #0066cc; }
+
+.field-error { color: #dc3545; font-size: 0.85rem; }
+
+/* Buttons */
+.btn-submit, .btn-retry {
+    display: inline-block;
+    padding: 10px 24px;
+    margin-top: 15px;
+    background: #0066cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-submit:hover, .btn-retry:hover { background: #0052a3; }
+
+/* Alert */
+.alert-box {
+    background: #f8d7da;
+    border: 1px solid #dc3545;
+    color: #dc3545;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Score */
+.score-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.score-number { font-size: 3rem; font-weight: bold; color: #0066cc; }
+.score-msg { margin-top: 8px; font-size: 1rem; }
+
+/* Results */
+.result-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+}
+.result-correct { border-left: 4px solid #28a745; }
+.result-incorrect { border-left: 4px solid #dc3545; }
+
+.verdict-correct { color: #28a745; font-weight: bold; }
+.verdict-incorrect { color: #dc3545; font-weight: bold; }
+.correct-reveal { color: #555; font-size: 0.9rem; margin-top: 4px; }
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #888;
+    font-size: 0.85rem;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+}
